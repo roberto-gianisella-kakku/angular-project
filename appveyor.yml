@@ -22,5 +22,9 @@ build_script: npm run build
 
 artifacts:
   # pushing entire folder as a zip archive
-  - path: dist
+  - path: angular-project.zip
     name: angular-project
+    type: WebDeployPackage
+deploy:
+- provider: Environment
+  name: cd_ui_test

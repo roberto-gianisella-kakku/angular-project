@@ -23,3 +23,4 @@ build_script: npm run build
 artifacts:
   # pushing entire folder as a zip archive
   - path: dist
+    name: angular-project

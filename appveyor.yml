@@ -22,7 +22,7 @@ build_script: npm run build
 
 artifacts:
   # pushing entire folder as a zip archive
-  - path: angular-project.zip
+  - path: dist
     name: angular-project
     type: WebDeployPackage
 deploy:

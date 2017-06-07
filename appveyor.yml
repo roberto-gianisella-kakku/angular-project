@@ -20,3 +20,6 @@ test_script:
 build: off
 build_script: npm run build
 
+artifacts:
+  # pushing entire folder as a zip archive
+  - path: dist

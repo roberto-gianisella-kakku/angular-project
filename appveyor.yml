@@ -27,11 +27,11 @@ artifacts:
     type: WebDeployPackage
 deploy:
   provider: S3
-  access_key_id:AKIAJ3WCGSN7IXYO45PA
-  secret_access_key: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
-  bucket:gianibob82.cd.test
+  access_key_id: AKIAJ3WCGSN7IXYO45PA
+  secret_access_key: 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
+  bucket: gianibob82.cd.test
   region: ap-southeast-2
   unzip: true
   set_public: true
   folder:
-  artifact:angular-project.zip
+  artifact: angular-project.zip

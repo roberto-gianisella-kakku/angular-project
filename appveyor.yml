@@ -27,8 +27,8 @@ artifacts:
     type: WebDeployPackage
 deploy:
   provider: S3
-  access_key_id: AKIAJ3WCGSN7IXYO45PA
-  secret_access_key: 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
+  access_key_id: 
+  secret_access_key: 
   bucket: gianibob82.cd.test
   region: ap-southeast-2
   unzip: true
